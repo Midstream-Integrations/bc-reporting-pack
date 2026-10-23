@@ -1,0 +1,46 @@
+{
+  "id": "52910ca0-e995-4937-b89c-6aadc8685e0a",
+  "name": "Finance and Warehouse Reporting Pack",
+  "publisher": "Midstream Integrations",
+  "version": "1.0.0.0",
+  "brief": "G/L entries audit view with created/modified-by names, plus outstanding and invoiced warehouse receipt queries for Excel and Power BI.",
+  "description": "G/L entries audit view with created/modified-by names, plus outstanding and invoiced warehouse receipt queries for Excel and Power BI.",
+  "privacyStatement": "https://github.com/Midstream-Integrations/bc-reporting-pack/blob/main/PRIVACY.md",
+  "EULA": "https://github.com/Midstream-Integrations/bc-reporting-pack/blob/main/LICENSE",
+  "help": "https://github.com/Midstream-Integrations/bc-reporting-pack#readme",
+  "url": "https://github.com/Midstream-Integrations/bc-reporting-pack",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50210,
+      "to": 50229
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
